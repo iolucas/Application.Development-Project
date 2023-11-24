@@ -1,0 +1,89 @@
+body{
+    min-width: 620px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px;
+    padding: 0px;
+}
+body a{
+    color: white;
+} 
+header{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px; /* Adicionado padding para ambos os lados */
+}
+header a {
+    text-decoration: none;
+}
+header a:first-child {
+    padding-right: auto; /* Adicionado para empurrar a navegação para a direita */
+}
+ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 6px;
+    padding-right: 25px;
+}
+li{
+    text-decoration: none;
+    display: flex;
+}
+ul li a {
+    padding-right: 25px;
+}
+h3 {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+section{
+    padding: 0 150px; /* Adicionado padding para o topo e o fundo */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+img{
+    width: 100%;
+    display: block;
+}
+article {
+    flex: 1 0 30%;
+    margin: 15px;
+}
+article p {
+    text-align: center;
+    color: gray;
+}
+@media (max-width: 670px) {
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 6px;
+        padding-right: 25px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    section{
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    article {
+        flex: 1 0 100%; 
+    }
+    .logosite{
+        font-size: 40px;
+    }
+    li {
+        border: 1px solid #8d8d8d; 
+        background-color: #8d8d8d;
+        text-align: center;
+    }
+}

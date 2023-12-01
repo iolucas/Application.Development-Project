@@ -1,0 +1,2 @@
+- Trabalho desenvolvido nas aulas de Desenvolvimento de Aplicações I. 
+- Utilizado os conhecimentos de HTML e CSS
